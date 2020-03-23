@@ -1,0 +1,51 @@
+body {background-color: black;}
+
+h1 {
+    color: #DC143C;
+    font-family: 'Arial Black' ;
+    font-weight:bold;
+    font-size: 70px;
+}
+
+h2 {
+    color: #6495ED;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3{
+    color: #3CB371;
+    font-size: 25px;
+    font-weight: bold;
+}
+body {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: oblique
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div1 {
+    float: left;
+    width: 50%;
+    height: 50px;
+    background: blue;
+}
+#div2 {
+    float: left;
+    height: 50px;
+    width: 50%;
+    background: red;
+}

@@ -5,13 +5,13 @@ canvas.height = window.innerHeight;
 var c = canvas.getContext('2d');
 //Draw Rectangle//
 //to fill the rectangle you use fillstyle
-c.fillStyle="yellow";
+c.fillStyle="blue";
 /c.fillRect(x,y,width,height);/
-c.fillRect(100,100,100,100);
-c.fillStyle="green";
+c.fillRect(200,100,200,100);
+c.fillStyle="grey";
 c.fillRect(200,200,100,100);
-c.fillStyle="orange";
-c.fillRect(300,300,100,100);
+c.fillStyle="blue";
+c.fillRect(200,300,200,100);
 
 
 //Draw a line
@@ -26,8 +26,8 @@ console.log(canvas);
 // Draw a circle
 //c.arc(x,y,radius, startangle, endangle, drawcounterclockwise = true/false)
 c.beginPath();
-c.arc(300,300,30,0, Math.PI*2,false)
-c.strokeStyle ="orange";
+c.arc(300,300,300, Math.PI*2,false)
+c.strokeStyle ="white";
 c.stroke();
 
 //for loop example with circles
@@ -36,7 +36,7 @@ for(var i=1; i<5; i++){
   var y = Math.random() * window.innerHeight;
   c.beginPath();
   c.arc(x,y,30,0, Math.PI*2,false)
-  c.strokeStyle ="orange";
+  c.strokeStyle ="white";
   c.stroke();
 
 }
