@@ -1,0 +1,26 @@
+body {background-color: #F5F5DC;}
+
+h1 {
+    color: #FFA07A;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 50px;
+}
+h2 {
+    color: #CD5C5C;
+    font-weight: bold;
+    font size: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .topnav input[type=text] {
+    float: center;
+    padding: 5px;
+    border: none;
+    margin-top: auto;
+    margin-right: auto;
+    font-size: 17px;
+  }
+  
